@@ -103,10 +103,11 @@ let name = "Sher";
 function init() {
   let name = "Mozilla"; //name is a local variable created by init
   function displayName() {
-    let name = "nishant";
     //displayName() is inner function, that forms the closure
     console.log(name); //use variable declared in the parent function
   }
-  displayName();
+  return displayName();
 }
-init();
+let func1 = init();
+
+func1();

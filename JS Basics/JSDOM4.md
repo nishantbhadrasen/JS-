@@ -1,4 +1,4 @@
-# JavaScript Promises and Async/Await
+f# JavaScript Promises and Async/Await
 
 This code demonstrates the use of Promises and async/await in JavaScript. It includes examples of creating and using promises, chaining promises, and using async/await to simplify asynchronous code.
 
